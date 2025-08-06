@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@keyframes glowAnim 
+{
+    0%{
+        box-shadow: 0px red;
+    }    
+    50%{
+        box-shadow: 10px red;
+    }
+    100%{
+        box-shadow: 0px red;
+    }
+
+}
